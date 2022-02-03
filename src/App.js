@@ -1,12 +1,9 @@
-import { useState } from 'react'
+import RoutesApp from './routes'
 
 export default function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div class="app">
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
+    <div className="app">
+      <RoutesApp />
     </div>
   )
 }
