@@ -1,0 +1,103 @@
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 35px auto 0 auto;
+  max-width: 1800px;
+}
+
+.linkHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkHeader svg {
+  font-size: 38px;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.linkHeader h1 {
+  font-size: 38px;
+  color: #fff;
+}
+
+.linksItem {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.linksItem:last-child {
+  margin-bottom: 18px;
+}
+
+.linksItemIcon {
+  font-size: 18px;
+  color: #fff;
+}
+
+.link {
+  width: 100%;
+  min-width: 80%;
+  height: 46px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 0;
+  color: #fff;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  padding: 0 14px;
+  margin-right: 14px;
+  padding: 0 14px;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.link svg {
+  margin-right: 15px;
+}
+
+.delete {
+  background-color: transparent;
+  border: 0;
+}
+
+.linksTrashIcon {
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+}
+
+@media (max-width: 720px) {
+  .linksContainer {
+    width: 85%;
+  }
+  .Logo h1 {
+    font-size: 40px;
+  }
+
+  .linksItem {
+    width: 100%;
+  }
+
+  .link {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .linksTrashIcon {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 620px) {
+  .link svg {
+    display: none;
+  }
+}
