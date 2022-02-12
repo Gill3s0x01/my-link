@@ -1,0 +1,43 @@
+.menuItem {
+  color: #fff;
+  font-size: 2em;
+  margin: 10px;
+  position: absolute;
+  right: 10%;
+  top: 20px;
+  display: flex;
+}
+
+.socialLink {
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.menuButton {
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+
+.menuButton:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: rgb(0, 247, 255) 0px 0px 10px;
+}
+.menuItemIcon {
+  margin: 10px;
+  color: #fff;
+}
+
+.menuItemIcon:hover {
+  box-shadow: rgb(0, 247, 255) 0px 0px 10px;
+  transform: scale(1.3);
+}
