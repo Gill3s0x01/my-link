@@ -1,5 +1,5 @@
 import './menu.css'
-import { BsYoutube, BsInstagram } from 'react-icons/bs'
+import { BsYoutube, BsGithub } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 export default function Menu() {
@@ -8,15 +8,12 @@ export default function Menu() {
       <div className="menuItem">
         <a
           className="socialLink"
-          href="https://www.youtube.com/channel/UCJWCecuSUa9CsNQ4MGJ_g3A"
+          href="https://www.youtube.com/channel/UC5g3po-qfrxfuHoeJHnqYHQ"
         >
           <BsYoutube className="menuItemIcon" />
         </a>
-        <a
-          className="socialLink"
-          href="https://www.instagram.com/air400.armorer/"
-        >
-          <BsInstagram className="menuItemIcon" />
+        <a className="socialLink" href="https://github.com/Gilles30">
+          <BsGithub className="menuItemIcon" />
         </a>
         <Link className="menuButton" to="/links">
           Meus Links
