@@ -1,4 +1,5 @@
 import './linkItem.css'
+
 import { FiClipboard, FiX } from 'react-icons/fi'
 
 export default function LinkItem({ closeModal, content }) {

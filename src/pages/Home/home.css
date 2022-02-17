@@ -33,7 +33,7 @@
   align-items: center;
   margin-top: 1em;
   width: 540px;
-  animation: slideY 3s;
+  animation: slideY 1.8s;
 }
 
 @keyframes slideY {

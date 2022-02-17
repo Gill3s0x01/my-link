@@ -4,7 +4,7 @@ import './home.css'
 import Menu from '../../components/Menu'
 import LinkItem from '../../components/LinkItem'
 import api from '../../services/api'
-import { Link } from 'react-router-dom'
+import { saveLink } from '../../services/storeLinks'
 
 export default function Home() {
   const [link, setLink] = useState('')
@@ -21,6 +21,7 @@ export default function Home() {
       })
       setData(response.data)
       setShowModal(true)
+      saveLink('@myLinks', response.data)
       setLink('')
     } catch (error) {
       alert(`Ops, algo deu errado: ${error}`)
