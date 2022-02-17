@@ -37,11 +37,11 @@
 }
 
 @keyframes slideY {
-  to {
-    transform: translateY(0);
-  }
   from {
     transform: translateY(-500%);
+  }
+  to {
+    transform: translateY(0);
   }
 }
 

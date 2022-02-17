@@ -10,6 +10,7 @@ function RoutesApp() {
         <Route path="/" element={<Home />} />
         <Route path="/links" element={<Links />} />
         <Route path="/*" element={<Error />} />
+        <Route path="/error" element={<Error />} />
       </Routes>
     </BrowserRouter>
   )
