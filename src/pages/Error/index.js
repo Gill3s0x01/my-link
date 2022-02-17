@@ -7,11 +7,12 @@ export default function Error() {
     <div className="containerError">
       <Link to="/">
         <FiArrowLeft className="linkHeaderIcon" />
+        Voltar para Home
       </Link>
       <div className="logo">
         <img src="/notfound.png" alt="404" />
-        <h1>My Link</h1>
-        <span>😔OOOPPSS!!!! Ocorreu um erro ao gerar o link 😔</span>
+        <h1>Pagina não encontrada</h1>
+        <span>😔OOOPPSS!!!! Ocorreu um erro 😔</span>
       </div>
     </div>
   )
